@@ -1,11 +1,23 @@
 import 'package:flutter/material.dart';
 
-class SelectDateBackgroundPainter extends CustomPainter {
+class SelectItemBackgroundPainter extends CustomPainter {
+  const SelectItemBackgroundPainter({
+    this.shapeColor,
+    this.backgroundColor,
+    this.triangleColor,
+  });
+
+  final Color? shapeColor;
+  final Color? backgroundColor;
+  final Color? triangleColor;
+
   @override
   void paint(Canvas canvas, Size size) {
-    Paint rRactPaint = Paint()..color = const Color(0xFFE7E9EC); // gray
-    Paint pathPaint = Paint()..color = Colors.white; // white
-    Paint trianglePaint = Paint()..color = const Color(0xFF091B3D);
+    Paint rRactPaint = Paint()
+      ..color = shapeColor ?? const Color(0xFFE7E9EC); // gray
+    Paint pathPaint = Paint()..color = backgroundColor ?? Colors.white; // white
+    Paint trianglePaint = Paint()
+      ..color = triangleColor ?? const Color(0xFF091B3D);
 
     final BorderRadius borderRadius = BorderRadius.circular(30);
     final Rect rect = Rect.fromLTRB(0, 0, size.width, size.height);

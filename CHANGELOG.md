@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.4
 
-This is a Swipe Selector.
+add some property to customize your swipe selector.

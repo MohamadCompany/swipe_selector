@@ -11,24 +11,25 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-This is Swipe Selector.
+This package contains a set of functions and classes that make it easy to use selector. It's multi-platform, and supports mobile, desktop, and the browser.
 
-## Features
-
-This is Swipe Selector.
-
-## Getting started
-
-This is Swipe Selector.
 
 ## Usage
 
-This is Swipe Selector.
+add this code into your project and enjoy.
 
-<!-- ```dart
-const like = 'sample';
-``` -->
+```dart
 
-## Additional information
+import 'package:swipe_selector/swipe_selector.dart';
 
-This is Swipe Selector.
+List colors = ['blue', 'yellow', 'white', 'brown', 'orange', 'black'];
+
+SwipeSelector(items: colors); // items are required property
+```
+
+<table>
+  <tr>
+    <td><img src="https://github.com/mdazharuddin1011999/UPI-Plugin-Flutter/raw/master/images/success.jpg" alt="" width="200"></td>
+    <td><img src="https://github.com/mdazharuddin1011999/UPI-Plugin-Flutter/raw/master/images/show.gif" alt="" width="200"></td>
+  </tr>
+</table>
