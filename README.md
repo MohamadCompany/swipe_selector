@@ -28,11 +28,4 @@ SwipeSelector(items: colors); // items are required property
 ```
 
 
-<style>
-    img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
 <img src="https://github.com/MohamadCompany/swipe_selector/blob/main/Screenshot.png?raw=true" alt="swipe_selector">
