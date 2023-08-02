@@ -19,17 +19,20 @@ This package contains a set of functions and classes that make it easy to use se
 add this code into your project and enjoy.
 
 ```dart
-
 import 'package:swipe_selector/swipe_selector.dart';
+
 
 List colors = ['blue', 'yellow', 'white', 'brown', 'orange', 'black'];
 
 SwipeSelector(items: colors); // items are required property
 ```
 
-<table>
-  <tr>
-    <td><img src="https://github.com/mdazharuddin1011999/UPI-Plugin-Flutter/raw/master/images/success.jpg" alt="" width="200"></td>
-    <td><img src="https://github.com/mdazharuddin1011999/UPI-Plugin-Flutter/raw/master/images/show.gif" alt="" width="200"></td>
-  </tr>
-</table>
+
+<style>
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<img src="https://github.com/MohamadCompany/swipe_selector/blob/main/Screenshot.png?raw=true" alt="swipe_selector">
